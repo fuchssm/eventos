@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="./tela.css">
+
+    <title>GERENCIAMENTO DE EVENTOS</title>
+</head>
+
+<body>
+
+     <div class="page">
+        <div class="formLogin">
+            <h1>Cadastro para participação de eventos</h1>
+            <p>Prencha os campos abaixo:</p>
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu email" autofocus="true"/>
+            <label for="password">Senha:</label>
+            <input type="password" placeholder="Digite sua senha "/>
+            <a href="/">Esqueci minha senha</a>
+            <button class="btn" id="mudarTela" onclick="mudaTela()">Acessar</button>
+        </div>
+     </div>
+
+
+</body>
+
+    <script>
+        function mudaTela(){
+            window.location.href = "tela2.html"
+        
+        }
+        
+    </script>
+
+</html>
+
